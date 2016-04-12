@@ -9,6 +9,7 @@ body {
 	margin: 0;
 }
 
+
 nav {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,207cca+27,2b88d9+49,207cca+63,7db9e8+100;Blue+Gloss+%232 */
 background: rgb(59,103,158); /* Old browsers */
@@ -56,13 +57,13 @@ nav li {
 	float: left;
 	margin-top: 50px;
 	margin-bottom: 20px;
-	padding-left: 50px;
+	padding-left: 55px;
 }
 
 nav li a {
 	text-decoration: none;
 	color: black;
-	padding: 10px 20px;
+	padding: 10px 22px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
 background: rgb(245,246,246); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
@@ -92,25 +93,21 @@ main {
 	background-color: white;
 	padding: 50px;
 	box-sizing: border-box;
+	font-family: Arial;
 }
 
 main h1 {
 	text-align: center;
 	margin-bottom: 0;
-	text-shadow: 1px 1px rgba(9,9,9,.5);
+	text-shadow: 1px 1px rgba(9,9,9,.3);
+	padding: 50px;
 }
 
 iframe {
 
 }
 
-#home {
-	font-family: Arial;
-}
-
-#home h1 {
-	padding: 50px;
-}
+/* Home page styles */
 
 #home img {
 	margin-bottom: 50px;
@@ -119,6 +116,27 @@ iframe {
 #home p {
 	margin-bottom: 50px;
 	line-height: 200%;
+}
+
+#home p::first-letter {
+	font-size: 200%
+}
+
+#home img {
+	box-shadow: 1px 1px 0 1px rgba(0,0,0,.5);
+}
+
+/* gallery styles */
+
+#gallery img {
+	margin: 10px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5)
+
+}
+
+#gallery div {
+	margin: 0 auto;
+	width: 900px;
 }
 
 footer {
