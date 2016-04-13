@@ -136,7 +136,24 @@ iframe {
 
 #gallery div {
 	margin: 0 auto;
-	width: 900px;
+	width: 85%;
+}
+
+/* tours styles */
+
+#tours section {
+	margin-bottom: 200px;
+}
+
+#row1 img,
+#row3 img{
+	float: left;
+	padding-right: 20px; 
+}
+
+#row2 img {
+	float: right;
+	padding-left: 20px;
 }
 
 footer {
