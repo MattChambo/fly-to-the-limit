@@ -12,17 +12,28 @@ body {
 
 nav {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,207cca+27,2b88d9+49,207cca+63,7db9e8+100;Blue+Gloss+%232 */
-background: rgb(59,103,158); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(32,124,202,1) 27%, rgba(43,136,217,1) 49%, rgba(32,124,202,1) 63%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(32,124,202,1) 27%,rgba(43,136,217,1) 49%,rgba(32,124,202,1) 63%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(59,103,158,1) 0%,rgba(32,124,202,1) 27%,rgba(43,136,217,1) 49%,rgba(32,124,202,1) 63%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 );
+	background: rgb(59,103,158); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(32,124,202,1) 27%, rgba(43,136,217,1) 49%, rgba(32,124,202,1) 63%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(32,124,202,1) 27%,rgba(43,136,217,1) 49%,rgba(32,124,202,1) 63%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(59,103,158,1) 0%,rgba(32,124,202,1) 27%,rgba(43,136,217,1) 49%,rgba(32,124,202,1) 63%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 );
 	overflow: hidden;
 	position: fixed;
 	top: 0;
   	left: 0;
   	z-index: 9999;
   	width: 100%;
+ }
+
+ nav i {
+ 	margin-top: 40px;
+ 	padding: 5px;
+ 	font-size: 30px !important;
+ 	color: #eeeeee !important;
+ }
+
+ nav a i:visited {
+ 	color: #333333;
  }
 
 nav h1,
@@ -35,24 +46,24 @@ nav ul {
 
 nav h1 a {
 	text-decoration: none;
-	font-family: arial;
+	font-family: Tahoma, sans-serif;
  	float: left; 
  	color: white;
  	padding-left: 20px;
  	padding-top: 20px;
- 	font-size: 40px;
+ 	font-size: 30px;
  	text-shadow: 1px 1px rgba(9,9,9,.5);
  	font-style: italic;
 
 }
 
 nav ul {
-	padding-right: 200px;
+	padding-left: 300px;
 }
 
 nav li {
 	display: inline;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	width: 200px;
 	float: left;
 	margin-top: 50px;
@@ -65,19 +76,19 @@ nav li a {
 	color: black;
 	padding: 10px 22px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100;Grey+Pipe */
-background: rgb(245,246,246); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
+	background: rgb(245,246,246); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
 	border-radius: 10px;
 	border: 1px solid black;
 }
 
 nav li a:hover {
-	color: #333333;
+	color: white;
 	background-color: black;
-	border: 2px solid white;
+	border: 1px solid white;
 	text-decoration: underline;
 }
 
@@ -142,7 +153,7 @@ iframe {
 /* tours styles */
 
 #tours section {
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 #row1 img,
@@ -156,6 +167,26 @@ iframe {
 	padding-left: 20px;
 }
 
+#row1:after,
+#row2:after,
+#row3:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* booking styles */
+
+#booking img {
+	float: right;
+}
+
+#booking:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 footer {
 	background-color: black;
 	margin: 0 auto;
@@ -164,10 +195,10 @@ footer {
 
 footer a {
 	float: right;
-	padding: 20px 20px;
+	padding: 15px 20px;
 	color: white;
 	text-decoration: none;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 }
 
 footer a:hover {
