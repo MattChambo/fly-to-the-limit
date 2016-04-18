@@ -87,7 +87,7 @@ nav li a {
 
 nav li a:hover {
 	color: white;
-	background-color: black;
+	background: black;
 	border: 1px solid white;
 	text-decoration: underline;
 }
@@ -190,6 +190,21 @@ form div {
 label {
 	width: 120px;
 	display: inline-block;
+}
+
+.radio {
+	margin-left: 130px;
+}
+
+#submit {
+	margin-left: 125px;
+	margin-top: 15px;
+	background-color: #dddddd;
+	padding: 8px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+	font-size: 17px;
 }
 
 /* footer styles */
