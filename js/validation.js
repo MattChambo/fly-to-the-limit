@@ -130,7 +130,14 @@ var genderIsSelected = false;
  		genderMessage.innerHTML = "Please select a gender";
   		totalErrors++;
   		} else {
-  		campusMessage.innerHTML = "";
+  		genderMessage.innerHTML = "";
+  	}
+
+  	if (tour.value == "") {
+  		tourMessage.innerHTML = "You must select a tour";
+  		totalErrors++;
+  	} else {
+  		tourMessage.innerHTML = "";
   	}
 
  	//If the total errors is greater than 0

@@ -1,14 +1,11 @@
-/*body {
-	background-color: #FF0000;
-}*/
-
-/* Comment goes here */
+/* Background color */
 
 body {
 	background-color: #cccccc;
 	margin: 0;
 }
 
+/* Navigation styles */
 
 nav {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,207cca+27,2b88d9+49,207cca+63,7db9e8+100;Blue+Gloss+%232 */
@@ -98,6 +95,8 @@ nav:after {
 	clear: both;
 }
 
+/* Main container styles */
+
 main {
 	margin: 0 auto;
 	width: 900px;
@@ -107,7 +106,7 @@ main {
 	font-family: Arial;
 }
 
-main h1 {
+main h2 {
 	text-align: center;
 	margin-bottom: 0;
 	text-shadow: 1px 1px rgba(9,9,9,.3);
@@ -130,18 +129,18 @@ iframe {
 }
 
 #home p::first-letter {
-	font-size: 200%
+	font-size: 200%;
 }
 
 #home img {
 	box-shadow: 1px 1px 0 1px rgba(0,0,0,.5);
 }
 
-/* gallery styles */
+/* Gallery styles */
 
 #gallery img {
 	margin: 10px;
-	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5)
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
 
 }
 
@@ -150,7 +149,7 @@ iframe {
 	width: 85%;
 }
 
-/* tours styles */
+/* Tours styles */
 
 #tours section {
 	margin-bottom: 100px;
@@ -175,7 +174,7 @@ iframe {
 	clear: both;
 }
 
-/* booking styles */
+/* Booking styles */
 
 form {
 	margin: 0 auto;
@@ -211,7 +210,7 @@ label {
 	font-size: 12px;
 }
 
-/* footer styles */
+/* Footer styles */
 
 footer {
 	background-color: black;
